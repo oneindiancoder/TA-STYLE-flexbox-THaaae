@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Icon Kit -->
+    <script
+      src="https://kit.fontawesome.com/0a6bb8ec9a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Blog Dashboard</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Sheet -->
+    <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+  </head>
+  <body>
+    <header class="header dark-bg">
+      <div class="container flex align-center">
+        <a href=".">
+          <img
+            class="brand-logo"
+            src="./assets/media/altcampus-logo.svg"
+            alt="brand logo"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="nav-list flex align-center">
+            <li class="nav-list-item">
+              <a class="nav-link flex align-center" href="#">
+                <img
+                  class="icon"
+                  src="./assets/media/icons/bell.svg"
+                  alt="Notifications"
+                />
+              </a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-link" href="#">
+                <span class="flex align-center"
+                  >Sarah Jones
+                  <img
+                    class="icon profile-icon"
+                    src="./assets/media/icons/user.svg"
+                    alt="user profile picture"
+                  />
+                </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container dashboard flex">
+      <main class="article-view col-2-3">
+        <section>
+          <article class="article flex align-flex-start">
+            <h2 class="article-heading">Why we are doing AltCampus?</h2>
+            <p class="article-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              quia adipisci laudantium tenetur reiciendis, earum blanditiis.
+              Doloremque tenetur, corporis velit, dignissimos eos ab, labore
+              quibusdam fugiat odit animi doloribus esse!
+            </p>
+            <p class="article-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              libero eaque quidem voluptates incidunt vitae soluta ducimus,
+              nihil totam neque.
+            </p>
+            <img
+              class="article-img"
+              src="./assets/media/01.png"
+              alt="How to deal with today?"
+            />
+            <a class="btn" href="#">Read more</a>
+          </article>
+        </section>
+      </main>
+      <aside class="sidebar-nav flex col-1-3">
+        <header class="sb-nav-header">
+          <h1>
+            <a href="." >
+              <span class="flex align-center justify-flex-start">
+                <img
+                  class="sidebar-icon"
+                  src="./assets/media/icons/dashboard.svg"
+                  alt="Dashboard Icon"
+                />
+                Dashboard</span
+              >
+            </a>
+          </h1>
+        </header>
+        <nav class="sb-nav">
+          <ul class="sb-nav-list flex">
+            <li class="sb-list-item active-sb-link">
+              <a href="#" >
+                <span  class="flex align-center justify-flex-start"
+                  ><img
+                    class="sidebar-icon"
+                    src="./assets/media/icons/article.svg"
+                    alt="Icon for Articles"
+                  />
+                  Articles</span
+                >
+              </a>
+            </li>
+            <li class="sb-list-item">
+              <a href="#">
+                <span  class="flex align-center justify-flex-start"
+                  ><img
+                    class="sidebar-icon"
+                    src="./assets/media/icons/analytics.svg"
+                    alt="Icon for Analytics"
+                  />
+                  Analytics</span
+                >
+              </a>
+            </li>
+            <li class="sb-list-item">
+              <a href="#">
+                <span class="flex align-center justify-flex-start">
+                    <img
+                    class="sidebar-icon"
+                    src="./assets/media/icons/inbox.svg"
+                    alt="Icon for Inbox"
+                  />
+                  Inbox
+                </a>
+                </span>
+                
+            </li>
+            <li class="sb-list-item">
+              <a href="#"
+                >
+                <span class="flex align-center justify-flex-start"><img
+                    class="sidebar-icon"
+                    src="./assets/media/icons/setting.svg"
+                    alt="Icon for settings"
+                  />
+                  Settings</span>
+              </a>
+            </li>
+            <li class="sb-list-item sb-logout">
+              <a href="#"
+                ><span class="flex align-center justify-flex-start">
+                    <img
+                    class="sidebar-icon"
+                    src="./assets/media/icons/log-out.svg"
+                    alt="Icon for Logout"
+                  />Log Out
+                </span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+    <footer class="dark-bg footer">
+        <div class="container flex align-center">
+            <small class="flex align-center">&copy;AltCampus</small>
+            <nav class="nav">
+              <ul class="nav-list flex align-center">
+                  <li class="nav-list-item ">
+                    <a class="nav-link social-icon flex align-center" href="#">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    </li>
+                  <li class="nav-list-item">
+                    <a class="nav-link social-icon flex align-center" href="#">
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </a>
+                </li>
+                </ul>
+            </nav>
+        </div>
+      
+    </footer>
+  </body>
+</html>
